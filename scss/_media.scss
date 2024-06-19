@@ -1,0 +1,781 @@
+ 
+  
+ @media(max-width:1531px) {    
+      
+    // blog 
+
+    .blog__article{ 
+       flex-direction: column; 
+       justify-content: center; 
+       align-items: center;
+    } 
+     
+    .blog__article--revers{ 
+        flex-wrap:wrap-reverse;
+    } 
+     
+    .blog__article-img--revers{ 
+        order:3;
+    } 
+     
+    .blog__text-box--revers{
+        order:1; 
+    } 
+     
+    .blog__title {
+        padding: 55px 0 55px; 
+    } 
+     
+    .blog__text-box { 
+        margin-bottom: 30px; 
+        padding: 0;
+    }
+
+ }  
+  
+  
+ @media(max-width:1485px) {   
+     
+    // contacts
+     
+    .contacts__title {
+        padding: 45px 0 55px;
+     }
+
+ }
+      
+   
+
+    
+ @media(max-width:1455px) {    
+     
+    // slogan
+
+    .slogan{ 
+        background-image: url('/images/slogan-img.jpg'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+    } 
+     
+    .slogan__img{ 
+        display: none;
+    } 
+     
+    .slogan__title {
+        max-width: 100%; 
+        text-align: center; 
+    } 
+     
+    .slogan__inner{ 
+        padding: 100px 0;
+    }
+}   
+ 
+@media(max-width:1425px) {      
+     
+    // benefits
+
+    .benefits__items{ 
+        flex-wrap: wrap; 
+        align-items: center; 
+        justify-content: center;
+    }
+     
+    .benefits__item{ 
+        margin: 25px;
+    }
+} 
+ 
+@media(max-width:1418px) {    
+     
+    // about-us
+     
+    .about-us__title {
+        padding: 10px 0 55px 0;
+    }
+     
+
+}  
+ 
+@media(max-width:1407px) {      
+     
+    // contacts
+     
+    .contacts__main{ 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 35px;
+    } 
+     
+    .contacts__title {
+        padding: 45px 0 40px; 
+    }
+
+}
+ 
+@media(max-width:1290px) {     
+     
+    // benefits
+     
+    .benefits__items {
+        margin-bottom: 15px;
+    }
+
+} 
+ 
+@media(max-width:1198px) {     
+      
+    // about-us 
+
+    .about-us__img {
+        width: 855px;
+        height: 585px;
+        margin-bottom: 50px;
+        border-radius: 9px;
+    } 
+     
+    .about-us__text {
+        width: 100%; 
+    }
+
+}
+ 
+@media(max-width:1085px) {    
+     
+    // slogan  
+     
+   .slogan {
+       padding-top: 105px; 
+   }  
+     
+   // blog 
+
+   .blog__title {
+    padding: 55px 0 39px;
+   } 
+    
+   .blog__article-title {
+    margin-bottom: 25px; 
+  } 
+
+}  
+ 
+@media(max-width:1005px) {   
+     
+    // footer 
+
+    .menu__list--footer{ 
+        flex-direction: column;
+    } 
+
+}
+ 
+@media(max-width:975px) {    
+     
+    // about-us
+     
+    .about-us__img {
+        width: 740px;
+        height: 495px;  
+        margin-bottom: 27px;
+    } 
+     
+     
+       // faq
+     
+      .faq__question-title {
+       font-size: 17px; 
+     } 
+      
+     .faq__question-text {
+        font-size: 15px; 
+    } 
+     
+    .faq__action-btn{ 
+        margin-left: 15px;
+    }
+
+
+}
+   
+@media(max-width:935px) {    
+      
+    // benefits 
+
+    .benefits__itle {
+        padding: 50px 0 29px; 
+    }   
+      
+    // cookie 
+
+    .popup_content {
+        max-width: 670px; 
+    }
+     
+} 
+
+@media(max-width:905px) {  
+     
+    // header
+ 
+     
+    .header .menu__btn {
+        display: block;  
+        order: 3;
+    }  
+     
+    .menu{ 
+        margin-left: auto; 
+        order:1;
+    } 
+     
+    .header .menu__search{  
+        margin: 0 auto; 
+    }
+     
+    .header .menu .menu__list {
+        display: block;
+        position: absolute;
+        top: 119px;
+        left: -15px;
+        right: -15px;
+        background-color: #845ec2; 
+        text-align: center;
+        padding: 20px 0;
+        transform: translateY(-500px);
+        transition: all .5s;
+        z-index: 50; 
+    }  
+     
+    .header .menu__list.menu__list--active{ 
+         transform: translateY(0);
+     } 
+     
+    .header .menu__item+.menu__item {
+        margin-left: 27px;
+        margin-left: 0; 
+    } 
+     
+    .header .menu__item { 
+        padding: 17px 0;
+    }  
+     
+     .menu__list--footer{ 
+         order: 3;
+     } 
+     
+    .menu--footer{ 
+        margin-left: 0;
+    }  
+     
+    .footer__phone{ 
+        order: 1;
+    }
+     
+   
+
+     
+    
+}    
+ 
+ 
+@media(max-width:855px) {    
+     
+    // blog
+   
+    .blog__title {
+        padding: 47px 0 30px;   
+    } 
+     
+    .blog__article-title {
+        margin-bottom: 17px; 
+    } 
+     
+    .blog__article-img {
+        width: 630px;
+        height: 429px;
+    }
+
+}
+
+ 
+@media(max-width:819px) {      
+
+    // slogan
+     
+    .slogan {
+        padding-top: 70px;
+    }  
+     
+    .slogan__title {
+      font-size: 40px; 
+      line-height: 54px;
+    }  
+     
+    // contacts popup
+     
+    .contacts__form-popup{ 
+        font-size: 25px; 
+        line-height: 34px;
+    }
+
+}  
+ 
+@media(max-width:795px) {   
+     
+    // about-us
+     
+    .about-us__img {
+        width: 705px;
+        height: 445px; 
+    }
+
+} 
+ 
+@media(max-width:705px) {    
+     
+    // about-us
+     
+    .about-us__img {
+        width: 619px;
+        height: 407px; 
+    }
+
+}   
+ 
+@media(max-width:695px) {     
+     
+    // cookies
+     
+    .popup_content p {
+        line-height: 25px;
+        margin-bottom: 15px;
+        font-size: 17px;
+    } 
+     
+    .popup_content {
+        max-width: 447px; 
+    }
+
+}
+ 
+@media(max-width:670px) {     
+     
+    // blog
+     
+    .blog__article {
+        padding-bottom: 40px;
+    } 
+     
+    .blog__article-img {
+        width: 570px;
+        height: 385px; 
+    }  
+     
+    // contacts
+     
+    .contacts__map-img {
+        width: 555px;
+        height: 350px; 
+    } 
+     
+    .contacts__form {
+        width: 100%;
+        max-width: 640px;
+        border-radius: 20px;
+        padding: 0;
+        border: 1px solid transparent;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 39px; 
+        justify-content: center;  
+        align-items: center;  
+        width: 100%;
+        max-width: 554px;
+    } 
+     
+    .contacts__input {
+        width: 554px;
+    }  
+     
+     
+
+}
+ 
+@media(max-width:630px) {    
+      
+    // benefits
+
+    .benefits__items {
+        margin-bottom: 10px; 
+    }  
+     
+    // about-us
+     
+    .about-us__title {
+        padding: 10px 0 45px 0;
+    } 
+     
+    .about-us__img {
+        width: 485px;
+        height: 335px; 
+    }  
+      
+    // contacts  
+     
+    
+
+    .contacts__input, .contacts__btn {
+        width: 470px; 
+    }
+      
+    // footer 
+
+    .footer__inner{ 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items:center; 
+        gap:15px; 
+        padding: 15px 0;
+    } 
+     
+    .menu__item--footer{ 
+        padding: 7px 0;
+    }
+
+} 
+ 
+@media(max-width:605px) {     
+     
+    // blog
+     
+    .blog__article-img {
+        width: 485px;
+        height: 345px; 
+    } 
+     
+    .blog__text-box {
+        margin-bottom: 27px; 
+    }
+
+} 
+ 
+@media(max-width:599px) {     
+     
+    // faq
+     
+    .faq__questions {
+        padding: 35px 0px 30px 0px; 
+    } 
+      
+    // contacts 
+
+    .contacts__map-img {
+        width: 490px;
+        height: 313px; 
+    }
+
+}
+ 
+ 
+@media(max-width:548px) {    
+     
+    // slogan  
+
+    .slogan__title {
+        font-size: 30px;
+        line-height: 50px;
+    } 
+     
+    .slogan {
+        padding-top: 37px;
+    } 
+     
+    .slogan__inner {
+        padding: 83px 0 50px; 
+    }  
+     
+    // blog
+     
+    .blog__article-img {
+        width: 427px;
+        height: 295px; 
+    } 
+     
+    .blog__article-title {
+        line-height: 30px; 
+    }
+
+}   
+ 
+@media(max-width:539px) {    
+     
+    //  about-us
+     
+    .about-us__title {
+        padding: 10px 0 35px 0;
+    }
+
+} 
+ 
+@media(max-width:517px) {    
+     
+    // contacts
+     
+    .contacts__map-img {
+        width: 430px;
+        height: 255px; 
+    } 
+     
+    .contacts__input,.contacts__btn {
+        width: 415px; 
+    }
+
+}
+ 
+@media(max-width:495px) {    
+      
+    // about-us 
+
+    .about-us__img {
+        width: 400px;
+        height: 275px; 
+    }
+
+}
+
+ 
+@media(max-width:485px) {   
+  
+    // header
+     
+  .header .menu__search{ 
+    display: none;
+  }   
+   
+//   cookies
+   
+  .popup_content {
+    max-width: 345px; 
+    padding: 15px 15px;
+ }
+
+}  
+ 
+@media(max-width:471px) {    
+     
+    // about-us
+     
+    .about-us{ 
+        background: linear-gradient(0deg, rgb(132, 94, 194) 0%, rgba(255, 255, 255, 0.8967962185) 171%);
+    } 
+     
+    .about-us__title {
+        padding: 35px 0 35px 0;
+        color:#FFF;
+    }  
+     
+    // blog
+     
+    .blog__article-img {
+        width: 355px;
+        height: 250px; 
+    } 
+     
+    .blog__article-text {
+        margin-bottom: 14px; 
+    } 
+     
+    .blog__title {
+        padding: 40px 0 30px;
+    }
+     
+}  
+ 
+@media(max-width:455px) {    
+      
+    // contacts 
+
+    .contacts__input, .contacts__btn {
+        width: 357px;
+    }
+
+} 
+
+ 
+@media(max-width:431px) {     
+     
+    // about-us__img
+     
+    .about-us__img {
+        width: 345px;
+        height: 227px; 
+    } 
+      
+    // contacts 
+
+    .contacts__map-img {
+        width: 355px;
+        height: 227px; 
+    } 
+     
+    .contacts__form { 
+        gap: 25px;
+    } 
+     
+    .contacts__input, .contacts__btn {
+        width: 315px; 
+    }
+
+} 
+  
+
+@media(max-width:420px){  
+ 
+    // faq 
+
+    .faq__question-title {
+        font-size: 15px; 
+    } 
+     
+    .faq__questions {
+        padding: 30px 0px 30px 0px; 
+    }
+}
+
+
+ 
+@media(max-width:415px) { 
+     
+//   slogan  
+ 
+.slogan__inner {
+    padding: 77px 0 25px;  
+ }  
+  
+//  blog
+  
+ .blog__article-img {
+    width: 319px;
+    height: 225px; 
+ }
+ 
+} 
+ 
+@media(max-width:390px) {    
+     
+    // benefits
+
+    .benefits__item-img {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 30px;
+    } 
+     
+    .benefits__item {
+        margin: 25px 0;
+    } 
+     
+    .benefits__item-title {
+        font-size: 29px;
+        color: #845ec2;
+        margin-bottom: 17px;
+        line-height: 34px;
+    }
+} 
+ 
+@media(max-width:375px) {   
+     
+    // about-us
+     
+    .about-us__img { 
+        display: none;
+    } 
+     
+    // faq
+
+    .faq__questions {
+        padding: 23px 0px 30px 0px;
+    } 
+      
+    // contacts 
+
+    .contacts__title {
+        padding: 45px 0 27px;
+    } 
+     
+    .contacts__map-img {
+        width: 290px;
+        height: 199px; 
+    }  
+     
+    // cookie
+     
+    .popup_content {
+        max-width: 319px;
+        padding: 15px 15px; 
+    } 
+     
+    #accept-cookie {
+        width: 115px;
+    }
+
+}    
+
+ 
+@media(max-width:355px) {      
+     
+    // blog
+     
+    .blog__article-title {
+        line-height: 25px;
+    }  
+     
+    // contacts
+     
+    .contacts__input, .contacts__btn {
+        width: 283px; 
+    }
+
+} 
+ 
+@media(max-width:340px) {     
+     
+    // blog
+     
+    .blog__article-img {
+        width: 275px;
+        height: 190px;
+    } 
+     
+    .blog__title {
+        padding: 40px 0 23px; 
+    }
+
+} 
+ 
+ 
+@media(max-width:330px) {      
+     
+    // faq
+
+    .faq__question {
+        padding: 20px 15px; 
+    } 
+      
+    // cookie popup
+
+    .popup_content {
+        max-width: 295px; 
+    } 
+
+
+}
+ 
+
+ 
+
+ 
